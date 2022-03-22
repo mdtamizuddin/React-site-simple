@@ -1,0 +1,51 @@
+*{
+  padding: 0;
+  margin: 0;
+  font-family: 'Raleway', sans-serif;
+}
+
+/* Homepage Deigning  */
+header{
+  display: flex;
+  width: 80%;
+  height: 800px;
+  margin: 0 auto;
+  justify-content: space-between;
+  align-items: center;
+  background-image: url(./component/images/pic4.png);
+ 
+}
+header img{
+  width: 600px;
+  transition: 1s ease;
+  
+}
+.header-div{
+  width: 50%;
+}
+header h2{
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+header h1 {
+font-size: 70px;
+line-height: 75px;
+font-weight: 900;
+}
+header p{
+  font-size: 18px;
+  letter-spacing: 1px;
+  line-height: 25px;
+  margin-top: 10px;
+  margin-bottom: 40px;
+}
+header a{
+  width: 300px;
+}
+header #another-one{
+  color: #f30ca6;
+}
+.header-div-2{
+  display: flex;
+  justify-content: flex-end;
+}
